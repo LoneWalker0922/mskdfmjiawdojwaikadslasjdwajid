@@ -1,68 +1,32 @@
-while not game:IsLoaded() or not game:GetService("CoreGui") or not game:GetService("Players").LocalPlayer or not game:GetService("Players").LocalPlayer.PlayerGui or not game:GetService("CoreGui"):FindFirstChild("TopBarApp") or not game:GetService("CoreGui"):FindFirstChild("PlayerList") or not game.Players.LocalPlayer.Character do task.wait(0.03) end
-local on = true -- Change to false if you want script to not run.
-if not on then return end
-if game.PlaceId ~= 823323202 then return end
-
-
-
         HunterHub = Instance.new("ScreenGui")
-
 	HHFrame = Instance.new("Frame")
-
 	TopBar = Instance.new("Frame")
-
 	TextLabel = Instance.new("TextLabel")
-
 	MidBar = Instance.new("Frame")
-
 	MainFrame = Instance.new("Frame")
-
 	TrainTab = Instance.new("Frame")
-
 	Frame2 = Instance.new("Frame")
-
 	SubFrame2 = Instance.new("Frame")
-
 	TextLabel_2 = Instance.new("TextLabel")
-
 	TextButton = Instance.new("TextButton")
-
 	TextButton_2 = Instance.new("TextButton")
-
 	TextLabel_3 = Instance.new("TextLabel")
-
 	Frame3 = Instance.new("Frame")
-
 	TextLabel_4 = Instance.new("TextLabel")
-
 	TextButton_3 = Instance.new("TextButton")
-
 	TextLabel_5 = Instance.new("TextLabel")
-
 	TextButton_4 = Instance.new("TextButton")
-
 	Frame4 = Instance.new("Frame")
-
 	TextLabel_6 = Instance.new("TextLabel")
-
 	TextButton_5 = Instance.new("TextButton")
-
 	TextLabel_7 = Instance.new("TextLabel")
-
 	TextButton_6 = Instance.new("TextButton")
-
 	Frame5 = Instance.new("Frame")
-
 	TextLabel_8 = Instance.new("TextLabel")
-
 	TextButton_7 = Instance.new("TextButton")
-
 	TextLabel_9 = Instance.new("TextLabel")
-
 	TextButton_8 = Instance.new("TextButton")
-
 	Frame6 = Instance.new("Frame")
-
 	TextLabel_10 = Instance.new("TextLabel")
 
 	TextButton_9 = Instance.new("TextButton")
